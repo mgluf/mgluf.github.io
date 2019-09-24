@@ -1,0 +1,226 @@
+.scroll {
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+.accent-bar{
+  background-color: black;
+  height: 25px;
+  width: 100%;
+}
+
+
+
+.name a{
+  margin-left: 15%;
+}
+
+.card a{
+  border: none;
+}
+.card a:hover{
+  border: none;
+}
+
+.active {
+  border-bottom: 5px solid blue;
+}
+
+.name{
+  margin-top: 5%;
+}
+
+.name:hover{
+  cursor: default;
+}
+
+.about-description a{
+  font-weight: bolder;
+  border-bottom: 2px solid transparent;
+}
+.about-description a:hover{
+  font-weight: bolder;
+  border-bottom: 2px solid blue;
+}
+.name a:last-child{
+  margin-left: 50px;
+}
+
+.name h1{
+  display: inline-block;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.name a{
+  font-size: 3rem;
+  line-height: 14rem;
+}
+
+
+.me img{
+  width: 100%;
+}
+
+.content{
+  margin-top: 50px;
+}
+
+.thumbs img{
+  width: 90%;
+  transition: all .1s ease-in-out;
+  border-top: 10px solid transparent;
+}
+
+.thumbs img:hover{
+      border-top: 10px solid black;
+      transition: all .1s ease-in-out;
+      cursor: pointer;
+}
+
+.titles{
+  margin-bottom: 25px;
+}
+
+.titles p{
+  display: inline-block;
+  line-height: 0;
+  margin: 0;
+}
+.title{
+  font-weight: bold;
+}
+
+.intro{
+}
+
+.intro img{
+  width: 100%;
+}
+
+.project-detail{
+
+}
+
+.project-detail h1{
+  font-weight: bold;
+}
+
+.project-detail h2{
+  font-size: 2.2rem;
+}
+
+.gallery img{
+  width: 90%;
+}
+
+.outro img{
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.navMobile{
+  display:none;
+  width: 40%;
+  margin-left: 30%;
+  border: 10px solid transparent;
+  transition: all 300ms ease-in-out;
+}
+.navMobile:hover{
+  border: 10px solid black;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+
+}
+
+.navigationMobile{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  text-align: center;
+}
+.navigationMobile img{
+  margin-top: 10%;
+  width: 15%;
+  margin: auto;
+  border: 10px solid transparent;
+  transition: all 300ms ease-in-out;
+}
+.navigationMobile img:hover{
+  border: 10px solid black;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+
+}
+
+.navigationMobile a{
+  font-size: 11rem;
+  border-bottom: 10px solid transparent;
+  transition: .1s;
+}
+
+.navigationMobile a:hover{
+  font-size: 11rem;
+  border-bottom: 10px solid blue;
+  transition: .1s;
+}
+
+
+
+.show{
+ height: 100%;
+ opacity: 100%;
+ transition: .5s;
+}
+
+.hide {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: .5s;
+}
+
+.mobileLink{
+}
+
+
+@media (max-width: 900px) {
+
+  .name h1{
+    font-size: 11rem;
+  }
+
+  .gallery img{
+    width: 100%;
+    margin-bottom: 5%;
+  }
+
+  .name{
+    text-align: center;
+  }
+
+  .name a{
+    text-align: center;
+  }
+
+  .name a{
+    display: none;
+  }
+  .thumbs img{
+    width: 100%;
+  }
+  .navMobile{
+    display:inline;
+    width: 25%;
+    margin-left: 35%;
+    }
+  .outro img{
+    margin-top:0;
+  }
+
+
+}
