@@ -25,12 +25,23 @@
 .accent-bar{
   background-color: black;
   height: 25px;
-  width: 100%;
 }
 
 .content{
   margin-top: 50px;
   animation: .5s ease-in 0s 1 contentLoad;
+}
+
+.footer{
+  padding-top: 5vh;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1.3rem;
+  bottom: 0;
+  margin-top: 10vh;
+  min-height: 25vh;
+  overflow-y: hidden;
 }
 
 
