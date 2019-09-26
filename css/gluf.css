@@ -59,7 +59,7 @@
 }
 
 .active {
-  border-bottom: 5px solid blue;
+  border-bottom: 5px solid black;
 }
 .name a:last-child{
   margin-left: 50px;
