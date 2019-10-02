@@ -40,8 +40,11 @@
   font-size: 1.3rem;
   bottom: 0;
   margin-top: 10vh;
-  min-height: 25vh;
+  min-height: 50vh;
   overflow-y: hidden;
+}
+.footer p{
+  margin-top: 25%;
 }
 
 
