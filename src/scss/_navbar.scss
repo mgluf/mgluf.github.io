@@ -20,7 +20,8 @@
                     color: $white;
                 }
                 &.active {
-                    color: $primary;
+                    color: $white;
+                    background-color:$primary;
                 }
             }
         }
@@ -44,12 +45,11 @@
         }
         .navbar-nav > li.nav-item > a.nav-link.active {
             color: $white;
-            background: $primary;
             &:active,
             &:focus,
             &:hover {
                 color: $white;
-                background: $primary;
+                background-color: $primary;
             }
         }
     }

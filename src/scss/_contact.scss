@@ -8,11 +8,11 @@
         position: relative;
         z-index: 1;
         padding-right: 0;
-        padding-left: 0;
+        padding-left: .5rem;
         resize: none;
         border: none;
         border-radius: 0;
-        background: none;
+        background: lightgray;
         box-shadow: none !important;
     }
     label {
