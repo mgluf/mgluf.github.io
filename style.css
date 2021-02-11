@@ -1,0 +1,516 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900");
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  color: #07336E;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  margin: 0;
+}
+
+.mega-header {
+  text-align: center;
+  font-weight: 200;
+  font-size: 3rem;
+  margin: 2rem 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-top: 5px solid #D18900;
+}
+
+.logo {
+  margin: auto;
+  padding-left: 2rem;
+}
+.logo a {
+  border: none;
+}
+.logo a:hover {
+  border: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-size: 1rem;
+  margin-right: 2rem;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  margin: auto 0;
+}
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 1rem;
+}
+.nav a.active {
+  background-color: #07336E;
+  color: #fff;
+  border-bottom: none;
+}
+.nav a {
+  color: #07336E;
+  border-bottom: none;
+  text-transform: uppercase;
+  padding: 1rem;
+}
+.nav a:hover {
+  background-color: #07336E;
+  color: #fff;
+  border-bottom: none;
+}
+.nav .mobile {
+  display: none;
+  margin: auto;
+  padding: 1.25rem;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav .mobile {
+    display: flex;
+    margin-right: 1rem;
+  }
+
+  .nav ul {
+    display: none;
+  }
+}
+.footer {
+  grid-area: footer;
+  background-color: #D18900;
+  color: #e8c480;
+}
+.footer a {
+  color: #f4e2bf;
+  border-bottom: none;
+}
+.footer a:hover {
+  border: none;
+}
+.footer h2 {
+  color: #7d5200;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.footer-left {
+  text-align: left;
+}
+.footer-center {
+  text-align: center;
+}
+.footer-right {
+  text-align: right;
+}
+
+.container.footer-grid {
+  margin-bottom: 2rem !important;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-left, .footer-center, .footer-right {
+    text-align: center;
+  }
+}
+.container {
+  margin-top: 1rem;
+  margin: 2rem auto 2rem auto;
+  width: 60%;
+}
+.container:last-of-type {
+  margin-bottom: 5rem;
+}
+
+.img-header {
+  height: 200px;
+  overflow: hidden;
+}
+.img-header img {
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  animation: full-width-load 1s forwards ease-in-out;
+}
+.full-width img {
+  width: 100%;
+}
+
+.btn-group, .btn-group-center {
+  display: flex;
+}
+.btn-group .btn, .btn-group .btn-ghost, .btn-group .btn-ghost-orange, .btn-group .btn-orange, .btn-group-center .btn, .btn-group-center .btn-ghost, .btn-group-center .btn-ghost-orange, .btn-group-center .btn-orange {
+  margin-right: 1rem;
+}
+
+.btn-group-center {
+  justify-content: center;
+}
+
+.btn, .btn-ghost, .btn-ghost-orange, .btn-orange {
+  padding: 1rem;
+  background-color: #07336E;
+  color: #fff;
+  border: none;
+}
+.btn:hover, .btn-ghost:hover, .btn-ghost-orange:hover, .btn-orange:hover {
+  color: white;
+  border: none;
+  background-color: #2c5284;
+}
+
+.btn-orange {
+  background-color: #D18900;
+}
+.btn-orange:hover {
+  background-color: #d89b26;
+}
+
+.btn-ghost, .btn-ghost-orange {
+  background-color: transparent;
+  border: 2px solid #07336E;
+  color: #07336E;
+}
+.btn-ghost:hover, .btn-ghost-orange:hover {
+  color: #fff;
+  background-color: #07336E;
+  border: 2px solid transparent;
+}
+.btn-ghost.ghostactive, .ghostactive.btn-ghost-orange {
+  background-color: #07336E;
+  color: #fff;
+}
+
+.btn-ghost-orange {
+  border: 2px solid #D18900;
+}
+.btn-ghost-orange:hover {
+  background-color: #D18900;
+}
+.btn-ghost-orange.ghostactive {
+  background-color: #D18900;
+}
+
+.orange {
+  color: #D18900;
+}
+
+.blue {
+  color: #07336E;
+}
+
+.center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+.mt-6 {
+  margin-top: 6rem;
+}
+
+.load {
+  animation: load 1.25s 100ms forwards ease-in;
+  opacity: 0;
+}
+
+.no-load {
+  opacity: 1;
+  animation: none;
+}
+
+@keyframes load {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes full-width-load {
+  from {
+    height: 300px;
+  }
+  to {
+    height: 300px;
+  }
+}
+.services {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.services li ul {
+  list-style-type: none;
+}
+.services li {
+  color: #07336E;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+.services li ul li {
+  color: #926000;
+  font-weight: normal;
+}
+
+.icon-wrap {
+  display: flex;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.profile-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  border-bottom: 5px solid #07336E;
+}
+
+.profile {
+  display: flex;
+}
+.profile img {
+  width: 100%;
+}
+
+.experience-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.credentials, .experience {
+  list-style-type: none;
+  margin-left: 1rem;
+  margin-top: 0;
+}
+.credentials h1, .credentials h3, .experience h1, .experience h3 {
+  margin-top: 0;
+  padding-top: 0;
+  color: #000;
+}
+.credentials li, .experience li {
+  color: #07336E;
+  margin-top: 1rem;
+}
+.credentials li:first-child, .experience li:first-child {
+  margin-top: 0;
+}
+
+.experience {
+  margin-left: 0;
+  padding-left: 0;
+}
+.experience li {
+  color: #D18900;
+  margin-left: 0;
+}
+
+/* Parent wrapper to carousel. Width can be changed as needed. */
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  opacity: 0;
+  animation: load 1.25s 200ms forwards ease-in;
+}
+
+/* Apply 'border-box' to 'box-sizing' so border and padding is included in the width and height. */
+.carousel-wrapper * {
+  box-sizing: border-box;
+}
+
+/* We'll be using the 'transform' property to move the carousel's items, so setting the 'transform-style' to 'preserve-3d' will make sure our nested elements are rendered properly in the 3D space. */
+.carousel {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.carousel img {
+  width: 100%;
+}
+
+/* By default we're hiding items (except the initial one) until the JS initiates. Elements are absolutely positioned with a width of 100% (as we're styling for mobile first), letting the content's height dictate the height of the carousel. Our magic property here for all our animation needs is 'transition', taking the properties we wish to animate 'transform' and 'opacity', along with the length of time in seconds. */
+.carousel__photo {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: auto;
+  padding: 1rem 4rem;
+  z-index: 100;
+  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+}
+
+/* Display the initial item and bring it to the front using 'z-index'. These styles also apply to the 'active' item. */
+.carousel__photo.initial,
+.carousel__photo.active {
+  opacity: 1;
+  position: relative;
+  z-index: 900;
+}
+
+/* Set 'z-index' to sit behind our '.active' item. */
+.carousel__photo.prev,
+.carousel__photo.next {
+  z-index: 800;
+}
+
+/* Translate previous item to the left */
+.carousel__photo.prev {
+  transform: translateX(-100%);
+}
+
+/* Translate next item to the right */
+.carousel__photo.next {
+  transform: translateX(100%);
+}
+
+/* Style navigation buttons to sit in the middle, either side of the carousel. */
+.carousel__button--prev,
+.carousel__button--next {
+  position: absolute;
+  top: 50%;
+  width: 3rem;
+  height: 3rem;
+  background-color: transparent;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1001;
+  /* Sit on top of everything */
+  border: none;
+  /*  opacity: 0;  Hide buttons until carousel is initialised 
+    transition:opacity 1s;*/
+}
+
+.carousel__button--prev {
+  left: 0;
+}
+
+.carousel__button--next {
+  right: 0;
+}
+
+/* Use pseudo elements to insert arrows inside of navigation buttons */
+.carousel__button--prev::after,
+.carousel__button--next::after {
+  content: " ";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 54%;
+  border-right: 3.5px solid #07336E;
+  border-bottom: 3.5px solid #07336E;
+  transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.carousel__button--next::after {
+  left: 47%;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.caption {
+  margin-top: 1rem;
+  color: gray;
+}
+
+.project-nav {
+  margin-left: 80px;
+  margin-bottom: 1rem;
+}
+
+html {
+  color: red;
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: #fff;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  display: grid;
+  grid-template: "header" "content" "footer";
+  grid-template-rows: 20vh 1fr auto;
+}
+
+.header, .content, .footer {
+  box-sizing: border-box;
+}
+
+.header {
+  grid-area: header;
+}
+
+.content {
+  grid-area: content;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+a {
+  text-decoration: none;
+  color: #00B1FF;
+  font-weight: 500;
+  padding-bottom: 1px;
+  transition: 150ms;
+  border-bottom: 2px solid #00B1FF;
+}
+a:hover {
+  color: #005980;
+  border-bottom: 2px solid #005980;
+  cursor: pointer;
+}
