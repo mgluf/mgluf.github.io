@@ -89,7 +89,7 @@ p {
   background-color: red;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1290px) {
   .nav .mobile {
     display: flex;
     margin-right: 1rem;
@@ -97,6 +97,11 @@ p {
 
   .nav ul {
     display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .logo img {
+    width: 80%;
   }
 }
 .footer {
@@ -126,7 +131,7 @@ p {
   text-align: right;
 }
 
-.container.footer-grid {
+.container.footer-grid, .footer-grid.container-projects {
   margin-bottom: 2rem !important;
 }
 
@@ -144,13 +149,17 @@ p {
     text-align: center;
   }
 }
-.container {
+.container, .container-projects {
   margin-top: 1rem;
   margin: 2rem auto 2rem auto;
   width: 60%;
 }
-.container:last-of-type {
+.container:last-of-type, .container-projects:last-of-type {
   margin-bottom: 5rem;
+}
+
+.container-projects {
+  width: 95%;
 }
 
 .img-header {
