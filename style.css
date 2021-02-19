@@ -5,6 +5,7 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700,800,900");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10683,6 +10684,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-weight: 400 !important;
+  color: #07336E;
+}
+
 .btn-group .btn, .btn-group .btn-ghost, .btn-group .btn-ghost-orange, .btn-group .btn-orange {
   margin-right: 0.5rem;
 }
@@ -10692,10 +10698,30 @@ textarea.form-control-lg {
 
 .nav-link {
   padding: 0.5rem 1rem;
+  color: #07336E;
+}
+.nav-link:hover {
+  color: #D18900;
 }
 
 .nav-pills .nav-link.active {
   background-color: #07336E;
+}
+
+#contact {
+  background-color: lightgray;
+  color: white;
+  padding: 2px 9px 5px 9px;
+}
+#contact svg {
+  transform: scale(0.75);
+}
+#contact:hover {
+  color: #07336E;
+}
+
+#about {
+  margin-right: 1rem;
 }
 
 .btn, .btn-ghost, .btn-ghost-orange, .btn-orange {
@@ -10942,6 +10968,7 @@ textarea.form-control-lg {
 
 html, body {
   height: 100%;
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .wrap {
