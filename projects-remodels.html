@@ -15,105 +15,126 @@
 </head>
 
 <body>
+  <div class="wrap">
+    <div id="main" class='clear-top'>
+      <div class="container my-4">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 align-self-center logo">
+            <a class='w-100' href="/index.html">
+              <img class='img-fluid' src="./static/cjg.png">
+            </a>
+          </div>
 
-  <div class="header">
-    <div class="logo">
-      <a href="/index.html"><img src="./static/cjg.png"></a>
-    </div>
-    <div class="nav">
-      <div class="mobile"></div>
-      <ul>
-        <li><a id="projects" class="active" href="/projects-custom-homes.html">Projects</a></li>
-        <li><a id="services" class="" href="/services.html">Services</a></li>
-        <li><a id="about" class="" href="/about.html">About</a></li>
-        <li><a id="contact" class="" href="/contact.html">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="content no-load">
+          <div class="col-lg-6 col-md-12 mt-4">
+            <div class="mobile d-flex d-sm-flex d-md-flex d-lg-none justify-content-center">
+              Mobile Menu
+            </div>
+            <ul class='header nav nav-pills justify-content-end d-none d-sm-none d-md-none d-lg-flex'>
+              <li class='nav-item'><a id="projects" class="nav-link active" href="/projects-custom-homes.html">Projects</a></li>
+              <li class='nav-item'><a id="services" class="nav-link " href="/services.html">Services</a></li>
+              <li class='nav-item'><a id="about" class="nav-link " href="/about.html">About</a></li>
+              <li class='nav-item'><a id="contact" class="nav-link " href="/contact.html">Contact</a></li>
+            </ul>
+          </div>
 
-    <div class="container-projects">
-
-      <div class="project-nav">
-        <h2>Projects</h2>
-        <div class="btn-group">
-          <a id="btn-custom-homes" href="/projects-custom-homes.html" class="btn-ghost-orange ">Custom Homes</a>
-          <a id="btn-remodels" href="/projects-remodels.html" class="btn-ghost-orange ghostactive">Major Additions</a>
-          <a id="btn-small-projects" href="/projects-small-projects.html" class="btn-ghost-orange ">Small Projects</a>
         </div>
       </div>
-      <div id="remodels" class="carousel-wrapper">
-        <div class="carousel">
-          <div class="carousel__photo">
-            <img src="../static/pool-1.jpg">
-            <div class="caption">Backyard Pool Addition - Concord, NC</div>
+      <div class="container mt-4">
+
+        <div class="row load mt-4">
+          <div class="col">
+            <div id="custom-homes" class="carousel-wrapper load">
+              <div class="carousel">
+                <div class="carousel__photo">
+                  <img src="../static/pool-1.jpg">
+                  <div class="caption">Backyard Pool Addition - Concord, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/pool-2.jpg">
+                  <div class="caption">Backyard Pool Addition - Concord, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/pool-3.jpg">
+                  <div class="caption">Backyard Pool Addition - Concord, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/pool-4.jpg">
+                  <div class="caption">Backyard Pool Addition - Concord, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/custom-garage-1.jpg">
+                  <div class="caption">Custom Garage, with Entry Arbor and Side Porch - Concord's North Historic District</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/custom-garage-2.jpg">
+                  <div class="caption">Custom Home - Moorisville, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/custom-garage-3.jpg">
+                  <div class="caption">Custom Garage - Concord, NC</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/whiteHouse-1-before.jpg">
+                  <div class="caption">Major Addition Before</div>
+                </div>
+                <div class="carousel__photo">
+                  <img src="../static/whiteHouse-2-after-1.jpg">
+                  <div class="caption">Major Addition After</div>
+                </div>
+                <div class="carousel__button--next"></div>
+                <div class="carousel__button--prev"></div>
+              </div>
+            </div>
           </div>
-          <div class="carousel__photo">
-            <img src="../static/pool-2.jpg">
-            <div class="caption">Backyard Pool Addition - Concord, NC</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/pool-3.jpg">
-            <div class="caption">Backyard Pool Addition - Concord, NC</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/pool-4.jpg">
-            <div class="caption">Backyard Pool Addition - Concord, NC</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/custom-garage-1.jpg">
-            <div class="caption">Custom Garage, with Entry Arbor and Side Porch - Concord's North Historic District</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/custom-garage-2.jpg">
-            <div class="caption">Custom Garage - Concord, NC</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/custom-garage-3.jpg">
-            <div class="caption">Custom Garage - Concord, NC</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/whiteHouse-1-before.jpg">
-            <div class="caption">Major Addition Before</div>
-          </div>
-          <div class="carousel__photo">
-            <img src="../static/whiteHouse-2-after-1.jpg">
-            <div class="caption">Major Addition After</div>
-          </div>
-          <div class="carousel__button--next"></div>
-          <div class="carousel__button--prev"></div>
         </div>
+
+        <div class="row no-load mt-4">
+          <div class="col text-center">
+            <div class="btn-group">
+              <a id="btn-custom-homes" href="/projects-custom-homes.html" class="btn-ghost-orange ">Custom Homes</a>
+              <a id="btn-remodels" href="/projects-remodels.html" class="btn-ghost-orange ghostactive">Major Additions</a>
+              <a id="btn-small-projects" href="/projects-small-projects.html" class="btn-ghost-orange ">Small Projects</a>
+            </div>
+          </div>
+        </div>
+
+
+
+
       </div>
 
     </div>
   </div>
-  <div class="footer">
-    <div class="container footer-grid">
-      <div class="footer-left">
-        <h2>About</h2>
-        </br>
+  <div class="footer container-fluid mt-4">
+    <div class="container">
+      <div class="row py-3">
+        <div class="col-lg-4 col-md-12 text-lg-start text-sm-center">
+          <h2>About</h2>
+          <p>
+            Designed & Built by <a href="https://mgluf.design/" target="_blank">Matthew Gluf</a>
+            <br>
+            Updated Feb 2021
+          </p>
+        </div>
 
-        <p>Designed & Built by <a href="https://mgluf.design/" target="_blank">Matthew Gluf</a></p>
-        </br>
-        <p>Updated Feb 2021</p>
-      </div>
-      <div class="footer-center">
-        <h2>CJG Designs</h2>
-        </br>
-        <p>147 Glendale Ave SE</p>
-        </br>
-        <p>Concord, NC 28025</p>
-      </div>
-      <div class="footer-right">
-        <h2>Contact</h2>
-        </br>
-        <a href="mailto:cjgdesigns@earthlink.net" blank="_target">CJGDESIGNS@Earthlink.net</a>
-        </br></br>
-        <p>980.621.0037</p>
+        <div class="col-lg-4 col-md-12 text-lg-center text-sm-center">
+          <h2>CJG Designs</h2>
+          <p>
+            147 Glendale Ave SE
+            <br>
+            Concord, NC 28025
+          </p>
+        </div>
+
+        <div class="col-lg-4 col-md-12 text-lg-end text-sm-center">
+          <h2>Contact</h2>
+          <a href="mailto:cjgdesigns@earthlink.net" blank="_target">CJGDESIGNS@Earthlink.net</a>
+          <p>980.621.0037</p>
+        </div>
+
       </div>
     </div>
   </div>
-
   <script type="text/javascript" src="./bundle.js"></script>
 </body>
 
