@@ -10708,20 +10708,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-color: #07336E;
 }
 
-#contact {
+#contact-icons {
+  margin-left: 1rem;
   background-color: lightgray;
   color: white;
   padding: 2px 9px 5px 9px;
 }
-#contact svg {
+#contact-icons svg {
   transform: scale(0.75);
 }
-#contact:hover {
+#contact-icons:hover {
   color: #07336E;
-}
-
-#about {
-  margin-right: 1rem;
 }
 
 .btn, .btn-ghost, .btn-ghost-orange, .btn-orange {
