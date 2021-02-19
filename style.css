@@ -10981,6 +10981,10 @@ html, body {
   /* this needs to be bigger than footer height*/
 }
 
+.consult svg {
+  margin-right: 0.5rem;
+}
+
 .footer {
   position: relative;
   margin-top: -175px !important;
