@@ -10742,7 +10742,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 .mobile svg {
   transform: scale(1.25);
-  margin-top: 12px;
+  margin-top: 7px;
   margin-left: 10px;
   color: #D18900;
 }
