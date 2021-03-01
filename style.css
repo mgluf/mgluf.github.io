@@ -10868,6 +10868,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   background-color: #D18900;
 }
 
+@media (max-width: 767.98px) {
+  .home-btn-group a {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}
 .load {
   animation: load 1.25s 100ms forwards ease-in;
   opacity: 0;
